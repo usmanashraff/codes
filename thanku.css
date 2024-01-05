@@ -1,0 +1,27 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Dancing+Script&family=Geologica:wght@100&family=Poppins:ital,wght@0,200;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Dancing+Script&family=Geologica:wght@100;900&family=Noto+Sans:ital,wght@0,400;1,100&family=Poppins:ital,wght@0,200;1,100&display=swap');
+
+.thanku-msg{
+
+    
+    font-family: poppins;
+
+   
+   
+
+}
+
+h1{
+    font-family: 'Geologica', sans-serif; 
+
+
+    }
+
+    section{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+       align-items: center;
+        flex-direction: column;
+    }

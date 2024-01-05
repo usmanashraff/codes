@@ -1,0 +1,42 @@
+#resume-sec .resume-container img{
+    width: 800px;
+}
+#resume-sec .resume-container{
+    margin-top: 30px;
+    text-align: center;
+}
+#resume-sec .resume-container button a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+#resume-sec .resume-container button{
+    margin-top: -20px;
+    margin-bottom: 10px;
+    border: 0;
+    border-radius: 10px;
+    padding: 15px 20px;
+    background-color: #323B4C;
+}
+#resume-sec .resume-container button:hover{
+    background-color: var(--theme);
+    cursor: pointer;
+color: black;
+    border: 1px solid black;
+    transition: all .3s;
+}
+#resume-sec .resume-container button:hover>a{
+    color:black;
+}
+.hide-resume{
+    display: none;
+}
+@media screen and (max-width:831px){
+    #resume-sec .resume-container img{
+        width: 600px;
+    }
+}
+@media screen and (max-width:635px){
+    #resume-sec .resume-container img{
+        width: 400px;
+    }
+}
