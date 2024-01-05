@@ -9,7 +9,7 @@ document.getElementById('bars').addEventListener('click', function(){
 // contact btn action 
 document.getElementById('contact-btn').addEventListener('click', ()=>{
    
-    window.location.href = "contact.php";
+    window.location.href = "contact.html";
 
   
   })
