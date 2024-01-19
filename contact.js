@@ -49,13 +49,14 @@ document.getElementById('wp-link').addEventListener('click', ()=>{
 
 
 
-document.getElementById('cmt-form').addEventListener('submit', (e)=>{
-  
+document.getElementById('submit').addEventListener('click' , (e)=>{
 
-       if(document.getElementById('msg').value == "" || document.getElementById('fname').value=="" ||document.getElementById('lname').value=="" || document.getElementById('email').value=="" ){
-         e.preventDefault();
-         alert('field is empty')
-       }
+  if(document.getElementById('email').value() == "" || document.getElementById('text-msg').value == "")
+       {
+        alert("fields are empty");
+        e.preventDefault()
+        
+       } 
 })
 
 
